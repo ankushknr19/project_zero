@@ -1,0 +1,13 @@
+.productRow {
+  /* position: relative; */
+  /* height: 428.5px;
+  width: 1250px; */
+  display: grid;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  grid-template-columns: repeat(4, auto);
+  column-gap: 20px;
+  row-gap: 20px;
+  /* background-color: red; */
+  margin-top: 20px;
+}

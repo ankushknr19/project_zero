@@ -1,0 +1,33 @@
+.cartItem {
+  display: grid;
+  justify-content: space-between;
+  max-width: 600px;
+  min-width: auto;
+  height: 195px;
+  background-color: lightcoral;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 10px;
+}
+
+.cartItem__imageBox {
+  height: 195px;
+  width: 176.47px;
+  align-self: left;
+  /* margin: auto 0 auto; */
+  background-color: white;
+}
+
+.cartItem__image {
+  /* object-fit: contain; */
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  align-self: flex-end;
+  max-width: 300px;
+  min-width: auto;
+  height: 50px;
+  padding-bottom: 10px;
+  /* cursor: pointer; */
+}

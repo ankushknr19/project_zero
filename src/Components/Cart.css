@@ -1,0 +1,23 @@
+.cart {
+  /* height: 100vh; */
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 60% 450px;
+}
+
+.cart__left {
+  display: grid;
+  row-gap: 20px;
+}
+
+.cart__left > h1 {
+  text-align: left;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.cart__right > h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}

@@ -1,0 +1,19 @@
+.bannerSlideshow {
+  height: 400px;
+  background-color: darkcyan;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-color: darkcyan;
+  height: 400px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 100px;
+  text-align: center;
+}

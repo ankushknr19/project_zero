@@ -1,0 +1,12 @@
+.checkout {
+  margin: 20px;
+  padding: 20px;
+  height: 540px;
+  width: 450px;
+  background-color: burlywood;
+}
+
+.checkout > h1 {
+  text-align: center;
+  font-size: 22px;
+}

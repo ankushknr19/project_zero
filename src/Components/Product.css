@@ -1,0 +1,39 @@
+.product {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  margin: 20px 50px;
+  column-gap: 50px;
+}
+
+.product__left {
+  width: 500px;
+  height: 625px;
+  background-color: burlywood;
+}
+
+.product__right {
+  display: grid;
+}
+.product__right > span {
+  text-align: left;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  max-width: 300px;
+  min-width: auto;
+  height: 50px;
+}
+
+.descriptionBox {
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  background-color: burlywood;
+  overflow: auto;
+}

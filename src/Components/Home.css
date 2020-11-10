@@ -1,0 +1,33 @@
+.home {
+  background-color: white;
+}
+
+.productContainer {
+  display: grid;
+  justify-content: center;
+  /* background-color: darkblue; */
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.productContainer > button {
+  width: 90px;
+  height: 30px;
+  /* position: relative; */
+  margin: auto;
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(204, 150, 70);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.productContainer > button > span {
+  color: aliceblue;
+}
+.productContainer > h1 {
+  text-align: center;
+}
